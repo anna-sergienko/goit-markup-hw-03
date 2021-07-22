@@ -114,7 +114,7 @@ img {
   padding-bottom: 200px;
 }
 .hero-title {
-  width: 696px;
+  min-width: 696px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
