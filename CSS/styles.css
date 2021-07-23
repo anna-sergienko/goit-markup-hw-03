@@ -33,6 +33,8 @@ p {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .container,
 .container-header {
@@ -93,6 +95,7 @@ img {
 .contacts {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 .site-nav a:hover,
 .contacts a:hover,
@@ -153,7 +156,6 @@ img {
 }
 .advantages-list {
   display: flex;
-  align-items: center;
 }
 .advantages-title {
   color: var(--title-text-color);
@@ -296,10 +298,6 @@ button {
   background-color: var(--accent-color);
 }
 /* PORTFOLIO CATOLOG */
-.work-block .container img {
-  width: 100%;
-  height: auto;
-}
 .portfolio-item .link {
   display: block;
 }
